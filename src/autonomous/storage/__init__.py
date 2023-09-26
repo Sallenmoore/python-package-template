@@ -1,1 +1,0 @@
-from .cloudinarystorage import CloudinaryStorage

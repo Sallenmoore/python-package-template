@@ -2,51 +2,12 @@
 #           PRODUCTION           #
 ##################################
 
-##### Frameworks #####
-
-Flask 
-
-##### Debugging, Logging, and Documentation #####
-
-icecream
-
 ##### System #####
 
 setuptools
 python-dotenv
 
-##### Storage #####
-
-PyGithub
-pygit2
-
-cloudinary
-
-redis
-
-##### Frontend #####
-
-jsmin
-
-##### Network #####
-
-requests
-gunicorn
-
-##### Security #####
-
-
-##### Async ##### 
-rq
-rq-dashboard
-
-##### AI #####
-
-openai
-
-##### Parsing #####
-
-validators
-dateparser
-python-slugify
-markdown
+##### PARSER #####
+# dateparser
+# python-slugify
+# markdown

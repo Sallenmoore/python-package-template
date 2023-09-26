@@ -30,7 +30,7 @@ deepclean: clean
 
 ###### TESTING #######
 
-TESTING=wikijs
+TESTING=test
 
 testinit:
 	pip install -e .
@@ -38,12 +38,7 @@ testinit:
 	pip install -r ./requirements.txt
 
 test: testinit
-	python -m pytest -k "test_$(TESTING)" -s
+	python -m pytest -k "test_$(TESTING)"
 
-testauto: testinit
-	python -m pytest
-
-testapp:
-	cd src/autonomous/app_template && make test
-
-tests: testauto testapp
+tests: testinit
+	python -m pytest -k "test_$(TESTING)"
